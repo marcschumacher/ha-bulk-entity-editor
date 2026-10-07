@@ -2116,6 +2116,7 @@ D.styles = C`
       display: block;
       height: 100%;
       min-height: 0;
+      overflow: hidden;
     }
     .grid {
       display: flex;
@@ -3828,7 +3829,7 @@ let v = class extends x {
   }
   _formatBuildTime() {
     try {
-      return (/* @__PURE__ */ new Date("2026-04-19T02:51:35.773Z")).toLocaleString(void 0, {
+      return (/* @__PURE__ */ new Date("2026-10-07T02:45:26.455Z")).toLocaleString(void 0, {
         year: "numeric",
         month: "short",
         day: "2-digit",
@@ -3836,7 +3837,7 @@ let v = class extends x {
         minute: "2-digit"
       });
     } catch {
-      return "2026-04-19T02:51:35.773Z";
+      return "2026-10-07T02:45:26.455Z";
     }
   }
   render() {

@@ -147,6 +147,7 @@ export class BeeEntityTable extends LitElement {
       display: block;
       height: 100%;
       min-height: 0;
+      overflow: hidden;
     }
     .grid {
       display: flex;
